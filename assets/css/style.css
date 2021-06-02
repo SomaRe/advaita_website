@@ -381,6 +381,10 @@ h2{
 
   #hero {
     background: url("../img/hero-bg-mobile.jpg") top center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    z-index: -10;
   }
   
 }
