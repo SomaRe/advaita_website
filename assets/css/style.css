@@ -250,6 +250,7 @@ h2{
   background-attachment: fixed;
   background-size: cover;
   position: relative;
+  z-index: -10;
 }
 
 #hero:before {
@@ -360,15 +361,7 @@ h2{
 } */
 
 
-@media only screen and (max-width: 762px) {
-
-  #hero {
-    background-image: url("../img/hero-bg-mobile.jpg");
-  }
-  
-}
-
-@keyframes animate {
+/* @keyframes animate {
   0% {
     transform: 
       translate(-50%, -75%) 
@@ -379,9 +372,19 @@ h2{
       translate(-50%, -75%) 
       rotate(360deg);
   }
-}
+} */
 
 /* Wave effect button End*/
+
+
+@media only screen and (max-width: 762px) {
+
+  #hero {
+    background: url("../img/hero-bg-mobile.jpg") top center;
+  }
+  
+}
+
 
 #perks{
   padding-top: 0;
