@@ -1,10 +1,3 @@
-/**
-* Template Name: OnePage - v4.2.0
-* Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -270,7 +263,7 @@ h2{
 }
 
 #hero .container {
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
 #hero h1 {
@@ -289,7 +282,7 @@ h2{
 }
 
 /* Wave effect button Start*/
-#hero .btn-get-started {
+/* #hero .btn-get-started {
   position: relative;
   margin-top: 30px;
   font-family: "Poppins", sans-serif;
@@ -364,6 +357,15 @@ h2{
   border-radius: 40%;
   background-color: rgba(250, 250, 250, 0.3);
   animation: animate 10s linear infinite;
+} */
+
+
+@media only screen and (max-width: 762px) {
+
+  #hero {
+    background-image: url("../img/hero-bg-mobile.jpg");
+  }
+  
 }
 
 @keyframes animate {
@@ -443,12 +445,15 @@ h2{
 @media (max-width: 992px) {
   
   #hero h1 {
-    font-size: 28px;
+    font-size: 24px;
     line-height: 36px;
+    text-shadow: #d4d3d4 0.5px 0.5px 5px;
   }
   #hero h2 {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
+    font-weight: 700;
+    text-shadow: #ffffff 1px 1px 2px;
   }
 }
 
