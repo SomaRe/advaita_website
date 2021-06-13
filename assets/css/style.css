@@ -1,6 +1,22 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+::-webkit-scrollbar{
+  width: 8px;
+}
+::-webkit-scrollbar-track{
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background: #8e13af;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #73108f;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
